@@ -1,7 +1,7 @@
-Summary:	command line tool for non-destructive resizing of FAT16/FAT32 file systems
+Summary:	Resize an FAT16/FAT32 volume non-destructively
 Name:		fatresize
 Version:	1.0.1
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/fatresize/%{name}-%{version}.tar.bz2
@@ -34,11 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING CREDITS ChangeLog NEWS README
-
-#%%dir %{_sysconfdir}
-#%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
-
 %attr(755,root,root) %{_sbindir}/*
-
-#%attr(754,root,root) /etc/rc.d/init.d/%{name}
-#%config(noreplace) %verify(not md5 mtime size) /etc/sysconfig/%{name}
