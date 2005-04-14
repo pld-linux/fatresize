@@ -1,4 +1,5 @@
 Summary:	Resize an FAT16/FAT32 volume non-destructively
+Summary(pl):	Niedestrukcyjna zmiana rozmiaru wolumenów FAT16/FAT32
 Name:		fatresize
 Version:	1.0.1
 Release:	1
@@ -16,10 +17,10 @@ FAT16/FAT32 file systems. It is based on the GNU Parted library. The
 main target of the project is to be used with the EVMS FAT plugin.
 
 %description -l pl
-fatresize to dzia³aj±ce z linii poleceñ narzêdzie do nie-destrukcyjnej
-zmiany rozmiaru systemów plików takich jak FAT16/32. Oparty jest na
+fatresize to dzia³aj±ce z linii poleceñ narzêdzie do niedestrukcyjnej
+zmiany rozmiaru systemów plików takich jak FAT16/32. Oparte jest na
 bibliotece parted. G³ównym przeznaczeniem tego projektu jest u¿ywanie
-go z wtyczk± EVMS FAT.
+go z wtyczk± FAT EVMS-a.
 
 %prep
 %setup -q
