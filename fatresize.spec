@@ -15,6 +15,12 @@ fatresize is a command line tool for non-destructive resizing of
 FAT16/FAT32 file systems. It is based on the GNU Parted library. The
 main target of the project is to be used with the EVMS FAT plugin.
 
+%description -l pl
+fatresize to dzia³aj±ce z linii poleceñ narzêdzie do nie-destrukcyjnej
+zmiany rozmiaru systemów plików takich jak FAT16/32. Oparty jest na
+bibliotece parted. G³ównym przeznaczeniem tego projektu jest u¿ywanie
+go z wtyczk± EVMS FAT.
+
 %prep
 %setup -q
 
