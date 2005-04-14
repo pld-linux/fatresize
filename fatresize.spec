@@ -7,7 +7,7 @@ Group:		Applications/System
 Source0:	http://dl.sourceforge.net/fatresize/%{name}-%{version}.tar.bz2
 # Source0-md5:	f4b03531e9bdba979932248f6a89bdfd
 URL:		http://sourceforge.net/projects/fatresize/
-BuildRequires:	parted-devel
+BuildRequires:	parted-devel >= 1.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 #%%dir %{_sysconfdir}
 #%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_sbindir}/*
 
 #%attr(754,root,root) /etc/rc.d/init.d/%{name}
 #%config(noreplace) %verify(not md5 mtime size) /etc/sysconfig/%{name}
