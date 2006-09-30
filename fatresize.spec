@@ -1,12 +1,12 @@
 Summary:	Resize an FAT16/FAT32 volume non-destructively
 Summary(pl):	Niedestrukcyjna zmiana rozmiaru wolumenów FAT16/FAT32
 Name:		fatresize
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/fatresize/%{name}-%{version}.tar.bz2
-# Source0-md5:	f4b03531e9bdba979932248f6a89bdfd
+# Source0-md5:	3bfac57c0801d33ad39e740841e6441e
 URL:		http://sourceforge.net/projects/fatresize/
 BuildRequires:	parted-devel >= 1.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
