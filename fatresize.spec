@@ -1,5 +1,5 @@
 Summary:	Resize an FAT16/FAT32 volume non-destructively
-Summary(pl.UTF-8):   Niedestrukcyjna zmiana rozmiaru wolumenów FAT16/FAT32
+Summary(pl.UTF-8):	Niedestrukcyjna zmiana rozmiaru wolumenów FAT16/FAT32
 Name:		fatresize
 Version:	1.0.2
 Release:	1
